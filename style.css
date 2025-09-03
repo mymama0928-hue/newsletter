@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Instagram 아이콘 */
+.insta-icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+  border-radius: 4px; /* 아이콘 모서리 둥글게 */
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.header .right a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.85rem;
+}
+
+/* Hero */
+.hero {
+  background: url("image/18129294.jpg") no-repeat center center/cover;
+  text-align: center;
+  padding: 6rem 1rem 8rem;
+  position: relative;
+}
+.hero h3 {
+  font-size: 1.4rem;
+  color: #4caf50;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.dots span {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.dots span:first-child {
+  background: #333;
+}
+
+/* Tools Section */
+.tools {
+  padding: 3rem 2rem;
+}
+.tools h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.tool-card {
+  text-align: center;
+}
+.tool-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.tool-card .caption {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Description with bar */
+.tool-desc .desc-item {
+  display: flex;
+  align-items: flex-start;
+  background: url("image/bar.png") no-repeat left top;
+  background-size: 6px 100%;
+  padding-left: 12px; /* bar 오른쪽 여백 */
+  margin-bottom: 1.5rem;
+}
+.tool-desc .desc-item p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+.tool-desc strong {
+  color: #000;
+  font-size: 1.05rem;
+}
